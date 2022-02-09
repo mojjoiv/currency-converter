@@ -64,26 +64,7 @@ export default function Header() {
       <br/>
        <CurrencyConverter/>
      
-      <RightSide>
-        <ImageWrapper>
-          {/* <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} /> */}
-          {/* <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font15 whiteColor">
-                <h1 className="conversion-result"  >{conversionRate || "0.0"}</h1>
-              </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
-            </div>
-          </QuoteWrapper> */}
-          {/* <DotsWrapper>
-            <Dots />
-          </DotsWrapper> */}
-        </ImageWrapper>
-        {/* <GreyDiv className="lightBg"></GreyDiv> */}
-      </RightSide>
+    
     </Wrapper>
   );
 }

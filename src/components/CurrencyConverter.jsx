@@ -98,23 +98,11 @@ export default function CurrencyConverter() {
     });
   }
   return (
-    // <div style={{ backgroundImage: `url(${require("./currency.jpg")})` }}>
+   
       <div>
-       {/* <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <h4 className="font15 whiteColor">Currency Converter</h4>
-
-               <p className="font15 whiteColor">
-                <h1 className="conversion-result"  >{conversionRate || "0.0"}</h1>
-              </p>
-            </div>
-          </QuoteWrapper> */}
-          <br/>
+      
         
-       <div  >
+       <div >
             <div style={cardStyles.container}>
               <label style={cardStyles.userName}>
                 Select Date
